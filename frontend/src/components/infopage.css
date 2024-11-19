@@ -1,0 +1,61 @@
+/* InfoPage styles */
+
+.background-gradient {
+    border-bottom: #e0a5e9 solid ;
+    text-align: center;
+    padding: 50px;
+    padding-top: 60px;
+    font-family: Arial, sans-serif;
+  }
+
+#start-button {
+  margin-top: 20px;
+  padding: 15px 30px;
+  font-size: 16px;
+  background-color: #35b9cd;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#start-button:hover {
+  background-color: #0056b3;
+}
+
+#about{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.n-heading{
+    margin-top: 30px;
+    margin-bottom: 1px;
+}
+
+.winpara{
+    margin-bottom: 0px;
+}
+ 
+.con-para{
+    margin-bottom: 0px;
+}
+
+.son-para{
+    margin-bottom: 0px;
+}
+
+.ourt-para{
+    margin-bottom: 0px;
+}
+ 
+#footer-infopage{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    border-top: solid rgb(183, 129, 181);
+}
