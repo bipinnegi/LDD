@@ -32,7 +32,7 @@ const XrayUploader = () => {
 
     try {
       // Send the image to the backend
-      const response = await fetch("http://localhost:5000/predict", {
+      const response = await fetch("https://ldd-7zei.onrender.com/predict", {
         method: "POST",
         body: formData,
       });
